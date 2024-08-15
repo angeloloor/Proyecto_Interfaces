@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* styles.css */
+body {
+  background-color: #f8f9fa;
+  height: 100%;
+}
+
+.navbar, .footer {
+  color: white;
+}
+
+.navbar a, .footer a,a {
+  color: #38813F;
+  text-decoration: none;
+}
+
+.btn-custom {
+  background-color: #38813F;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #2e6934;
+}
+
+span{
+  color: #38813F;
+}
+.nav-link,.navbar-brand {
+  color: #38813F; /* Color verde para el enlace */
+  text-decoration: none; /* Elimina el subrayado si es necesario */
+}
+
+.nav-link:hover,.navbar-brand:hover  {
+  color: #38813F; /* Color verde en hover */
+}
+
+.nav-link:focus,.navbar-brand:focus {
+  color: rgb(12, 41, 21); /* Color verde cuando el enlace tiene foco */
+  box-shadow: none; /* Elimina el contorno por defecto de Bootstrap si lo deseas */
+}
+
+.nav-link:active,.navbar-brand:active {
+  color: #38813F; /* Color verde cuando el enlace está activo */
+}
